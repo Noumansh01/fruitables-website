@@ -1,0 +1,220 @@
+.footer-wrapper{
+    background-color: #45595b;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.footer-wrapper >hr{
+    width: 90%;
+    height: 1px;
+    /* background-color: #FFB524; */
+}
+.footer-top-box{
+    /* background-color: #4dafb8; */
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-left{
+    /* background-color: #964a4a; */
+    width: 15%;
+    height: 70%;
+}
+.footer-top-left>span{
+    font-size: 35px;
+}
+.footer-top-left>p{
+    color: #FFB524;
+}
+.footer-top-centre{
+    /* background-color: #995bcc; */
+    width: 50%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top-centre>input{
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    outline-color: #D7E9BC;
+}
+.footer-top-centre>div{
+    position: absolute;
+    right: 56px;
+    width: 150px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #81C408;
+    color: white;
+    transition: 0.5s;
+}
+.footer-top-centre>div:hover{
+    background-color:#FFB524 ;
+}
+.footer-top-right{
+    /* background-color: #3f9985; */
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-icon-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #FFB524;
+    font-size: 20px;
+    color: #FFB524;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.social-hover:hover{
+    color: black;
+    background-color:#FFB524 ;
+}
+.footer-centre-box{
+    /* background-color: #7269c4; */
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-centre-inner{
+    width: 20%;
+    height: 90%;
+    /* background-color: #61a7d6; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.centre-inner-color>h2{
+    color: white;
+    margin-left:12px;
+}
+.centre-inner-color>p{
+  
+   color: rgba(255, 255, 255, .5);
+}
+.footer-centre-inner>button{
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #FFB524;
+    background-color: transparent;
+    transition: 0.5s;
+    margin-left: -90px;
+    cursor: pointer;
+}
+.footer-centre-inner>button:hover{
+    background-color:#FFB524 ;
+    color: white;
+
+}
+.centre-inner-links {
+    width: 16%;
+    height: 90%;
+    /* background-color: #61a7d6; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.centre-inner-links>ul{
+  width: 75%;
+  height: 80%;
+  /* background-color: #81C408; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, .5);
+  
+}
+.centre-inner-links>ul>li{
+    list-style: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.centre-inner-links>ul>li:hover{
+    color: #FFB524;
+}
+#footer-contact{
+    margin-right: 120px;
+}
+.footer-centre-inner>div{
+
+color: rgba(255, 255, 255, .5);
+}
+
+.footer-bottom-box{
+    /* background-color: #b4629b; */
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-bottom-left{
+    /* background-color: #9861c5; */
+    width: 22%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-left>p>span:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+.footer-bottom-right{
+    /* background-color: #51b4af; */
+    width: 33%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bottom-right>p>span{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.footer-bottom-right>p>span:hover{
+    opacity: 0.7;
+}
+.back-arrow{
+    display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 1px;
+  z-index: 99;
+  background-color: #81C408;
+  color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+.back-arrow:hover{
+opacity: 0.8;
+}

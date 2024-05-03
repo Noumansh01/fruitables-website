@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.error-text-box {
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+  /* background: aqua; */
+  padding-top: 80px;
+}
+.danger-icon{
+  font-size: 80px;
+  color: #FFB524;
+}
+.error-text-box >h1 {
+  font-size: 100px;
+  color: #333;
+  margin: 0;
+}
+.error-page-ol{
+  width: 170px;
+  height: 50px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+.error-text-box>p {
+  font-size: 24px;
+  color: #666;
+  margin: 20px 0;
+}
+.btn-404{
+  font-size: 14px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #FFB524;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+ 
+}
+.btn-404:hover {
+ background-color: #FFB524;
+ color: white;
+}
